@@ -13,7 +13,8 @@ namespace KokarevPR5
             double x;
             x=Convert.ToDouble(Console.ReadLine());
             double F= Math.Sin(x)+Math.Cos(x);
-            Console.WriteLine(x);
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine(F);
             Console.ReadKey();
             return;
         }
