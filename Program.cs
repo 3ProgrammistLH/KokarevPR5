@@ -15,6 +15,7 @@ namespace KokarevPR5
             double F= Math.Sin(x)+Math.Cos(x);
             Console.WriteLine(x);
             Console.ReadKey();
+            return;
         }
     }
 }
