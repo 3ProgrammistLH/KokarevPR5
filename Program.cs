@@ -10,6 +10,11 @@ namespace KokarevPR5
     {
         static void Main(string[] args)
         {
+            double x;
+            x=Convert.ToDouble(Console.ReadLine());
+            double F= Math.Sin(x)+Math.Cos(x);
+            Console.WriteLine(x);
+            Console.ReadKey();
         }
     }
 }
